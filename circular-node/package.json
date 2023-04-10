@@ -1,0 +1,15 @@
+{
+  "name": "circular-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "find-circular-deps": "madge . -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "madge": "^6.0.0"
+  }
+}
