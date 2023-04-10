@@ -1,5 +1,8 @@
 const { utilB } = require('./B')
-const { nameObject } = require('./C')
+
+const nameObject = {
+    name: 'whatever'
+}
 
 const utilA = () => {
     console.log('inside A')
@@ -9,4 +12,5 @@ const utilA = () => {
 
 module.exports = {
     utilA,
+    nameObject
 }

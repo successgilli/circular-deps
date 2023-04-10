@@ -1,4 +1,4 @@
-const { nameObject } = require('./C')
+const { nameObject } = require('./A')
 
 const utilB = () => {
     console.log('inside B')
